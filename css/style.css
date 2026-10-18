@@ -50,7 +50,7 @@ a{
 } */
 
 .hire_me_button {
-     padding: 18px 35px 19px 36px;
+    padding: 18px 35px 19px 36px;
     background: #FD6E0A;
     display: inline-block;
     border-radius: 5px;
@@ -64,6 +64,7 @@ a{
     border: 1px solid #FD6E0A;
     background: transparent;
     color: #FD6E0A;
+    transition: 0.3s;
 }
 
 
@@ -72,6 +73,10 @@ a{
     font-weight: 400;
     font-size: 20px;
     color: #474747;
+}
+.menubar ul li a:hover{
+    color: #FD6E0A;
+    transition: 0.3s;
 }
 
 .menubuttonflex{
@@ -83,7 +88,6 @@ a{
 
 
 /* banner part css start */
-
 .bannerPart{
     padding-top: 230px;
     background: url(../images/background.png);
@@ -128,7 +132,7 @@ a{
     margin-top: 30px;
 }
 
-.btn{
+.download_Contact_btn{
     padding: 19px 17px 18px 17px;
     background: #FD6E0A;
     display: inline-block;
@@ -140,13 +144,15 @@ a{
     border: 1px solid #FD6E0A;
 }
 
-.btn:hover{
+.download_Contact_btn:hover{
     border: 1px solid #FD6E0A;
     background: transparent;
     color: #FD6E0A;
+    transition: 0.3s;
 }
 
-.gap{
+
+.download_Contact_gap{
     margin-right: 10px;
 }
 /* banner part css end */
