@@ -64,7 +64,7 @@ a{
     border: 1px solid #FD6E0A;
     background: transparent;
     color: #FD6E0A;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 
@@ -76,7 +76,7 @@ a{
 }
 .menubar ul li a:hover{
     color: #FD6E0A;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .menubuttonflex{
@@ -148,7 +148,7 @@ a{
     border: 1px solid #FD6E0A;
     background: transparent;
     color: #FD6E0A;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 
@@ -156,3 +156,69 @@ a{
     margin-right: 10px;
 }
 /* banner part css end */
+
+
+/* About us css start */
+.about_me_part{
+    margin-top: 130px;
+    margin-bottom: 130px;
+   
+}
+
+.about{
+   background: #FFF8F3;
+   padding: 131px 157px;
+   
+}
+
+.about_content{
+    text-align: center;
+}
+
+.about_content h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+    width: 827px;
+}
+
+.about_content p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    width: 827px;
+    line-height: 30px;
+}
+
+.about_biodata{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 23px;
+}
+
+.about_biodata .question{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about_biodata .answer{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    color: #181818;
+    line-height: 30px;
+}
+
+
+
+
+/* About us css end */
