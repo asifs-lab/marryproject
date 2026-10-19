@@ -14,7 +14,6 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
-
 /* all common parts end here */
 
 
@@ -39,15 +38,6 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-/* .button a{
-    padding: 18px 35px;
-    background: #FD6E0A;
-    border-radius: 5px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFF; 
-} */
 
 .hire_me_button {
     padding: 18px 35px 19px 36px;
@@ -204,7 +194,7 @@ a{
 .about_biodata .question{
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     color: #757575;
     line-height: 30px;
@@ -212,13 +202,139 @@ a{
 .about_biodata .answer{
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 20px;
     color: #181818;
     line-height: 30px;
 }
-
-
-
-
 /* About us css end */
+
+
+/* What_i_do css start */
+#what_i_do_part{
+    margin-bottom: 130px;
+}
+.what_i_do_heading{
+    text-align: center;
+}
+.what_i_do_heading h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.what_i_do_heading p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    width: 909px;
+    margin: 0 auto;
+}
+
+.card_section{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 31px;
+}
+
+.card h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 28px;
+    width: 201px;
+}
+/* What_i_do css end */
+
+
+/* Summary css start */
+#summary_part{
+    margin-bottom: 130px;
+}
+
+
+.summary_part_heading{
+    text-align: center;
+}
+
+
+.summary_part_heading h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+.summary_part_table{
+    display: flex;
+    gap: 71px;
+}
+
+.summary_part_table h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.summary_part_table h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.summary_part_table h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.summary_part_table p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 20px;
+    line-height: 28px;
+    width: 511px;
+}
+
+.education_1,
+.education_2,
+.education_3,
+.experience_01,
+.experience_02,
+.experience_03 {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+/* Summary css end */
