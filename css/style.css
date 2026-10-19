@@ -337,4 +337,10 @@ a{
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
+
+.summary_download_buttton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Summary css end */
