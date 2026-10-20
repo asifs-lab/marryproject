@@ -24,21 +24,4 @@ A personal portfolio landing page built with HTML and CSS. It showcases a web de
 - [Google Fonts - Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - [Font Awesome 7](https://fontawesome.com/) (icons)
 
-## Folder Structure
 
-```
-project-folder/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── images/
-│   ├── Mary.png
-│   ├── man.png
-│   ├── background.png
-│   ├── js.png
-│   ├── react.png
-│   ├── njs.png
-│   └── mdb.png
-└── README.md
-```
